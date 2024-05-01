@@ -1,0 +1,151 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ad2cfd;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    padding: 2em;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image>img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    padding-top: 0.5em;
+}
+
+.menu>li{
+    list-style: none;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.contact-head{
+    text-align: center;
+    padding-top: 2em;
+}
+
+main{
+    display: flex;
+    padding-top: 3em;
+    gap: 2.5em;
+    align-content: center;
+    text-align: center;
+}
+
+.contact-image>img{
+    max-width: 400px;
+}
+
+.form{
+    align-self: center;
+    /* outline: 3px solid red; */
+}
+
+.form>h2+p{
+    padding-bottom: 2em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* outline: 3px solid red; */
+    gap: 1.5em;
+    text-align: left;
+}
+
+label{
+    font-weight: 550;
+}
+
+input{
+    width: 20em;
+    background-color: #ad2cfd;
+    border: 0;
+    margin-left: 1em;
+    outline: 3px solid #ffffff;
+}
+
+#name, #email{
+    margin-left: 2.8em;
+}
+
+#message{
+    height: 6em;
+}
+
+.button{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #ad2cfd;
+    outline: 3px solid #ffffff;
+    border: 0;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #ad2cfd;
+    background-color: #ffffff;
+}
+
+hr{
+    margin: 2em 0;
+    border: 2px solid #ffffff;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-content>p>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo>img{
+    width: 200px;
+}
+
+.bottom{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap: 1em;
+}

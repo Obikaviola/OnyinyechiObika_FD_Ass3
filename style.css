@@ -1,0 +1,160 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ad2cfd;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    padding: 2em;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image>img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    padding-top: 0.5em;
+}
+
+.menu>li{
+    list-style: none;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero{
+    text-align: center;
+    padding-top: 2em;
+}
+
+.hero-image{
+    padding-top: 2em;
+}
+
+.hero-image>img{
+    width: 600px;
+    border-radius: 5%;
+}
+
+.gallery{
+    display: flex;
+    padding-top: 2em;
+    justify-content: center;
+    gap: 2em;
+}
+.gallery>img{
+    width: 120px;
+    height: 90px;
+}
+
+.about{
+    display: flex;
+    padding-top: 3em;
+    gap: 2.5em;
+    align-content: center;
+    text-align: center;
+}
+
+.section1-image>img{
+    max-width: 400px;
+}
+
+.section1-content{
+    align-self: center;
+}
+
+.about-content{
+    padding-bottom: 2em;
+}
+
+.button>a>button{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #ad2cfd;
+    outline: 3px solid #ffffff;
+    border: 0;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button>button:hover{
+    color: #ad2cfd;
+    background-color: #ffffff;
+}
+
+.section2{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section2-image>img{
+    max-width: 400px;
+}
+
+.opening{
+    align-self: center;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.opening>h1{
+    padding-bottom: 0.5em;
+}
+
+hr{
+    margin: 2em 0;
+    border: 2px solid #ffffff;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-content>p>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo>img{
+    width: 200px;
+}
+
+.bottom{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap: 1em;
+}

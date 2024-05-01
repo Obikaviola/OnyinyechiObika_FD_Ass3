@@ -1,0 +1,180 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #ad2cfd;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    padding: 2em;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image>img{
+    width: 200px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+    padding-top: 0.5em;
+}
+
+.menu>li{
+    list-style: none;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-content{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 3em;
+}
+
+.starter{
+    display: flex;
+    padding-top: 3em;
+    gap: 2.5em;
+    align-content: center;
+    text-align: center;
+}
+
+.starter-image>img{
+    max-width: 400px;
+}
+
+.starter-content{
+    align-self: center;
+}
+
+.starter-content>p{
+    padding: 1em 0 1.5em 0;
+}
+
+.button>a>button{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #ad2cfd;
+    outline: 3px solid #ffffff;
+    border: 0;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button>button:hover{
+    color: #ad2cfd;
+    background-color: #ffffff;
+}
+
+.main-course{
+    display: flex;
+    padding-top: 2em;
+    gap: 2.5em;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-course-image>img{
+    max-width: 400px;
+}
+
+.main-course-content{
+    align-self: center;
+}
+
+.main-course-content>p{
+    padding: 1em 0 1.5em 0;
+}
+
+.dessert{
+    display: flex;
+    padding-top: 3em;
+    gap: 2.5em;
+    align-content: center;
+    text-align: center;
+}
+
+.dessert-image>img{
+    max-width: 400px;
+}
+
+.dessert-content{
+    align-self: center;
+}
+
+.dessert-content>p{
+    padding: 1em 0 1.5em 0;
+}
+
+.drinks{
+    display: flex;
+    padding-top: 2em;
+    gap: 2.5em;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.drinks-image>img{
+    max-width: 400px;
+}
+
+.drinks-content{
+    align-self: center;
+}
+
+.drinks-content>p{
+    padding: 1em 0 1.5em 0;
+}
+
+hr{
+    margin: 2em 0;
+    border: 2px solid #ffffff;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-content>p>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo>img{
+    width: 200px;
+}
+
+.bottom{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap: 1em;
+}
